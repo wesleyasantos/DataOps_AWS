@@ -1,0 +1,12 @@
+aws:
+  region: us-east-1
+  s3_bucket: seu-bucket-titanic
+  folders:
+    - raw/
+    - processed/
+    - final/
+    - athena/results/
+  glue_database: titanic_db
+  glue_crawler: titanic-crawler
+  glue_role_arn: arn:aws:iam::SEU_ID:role/AWSGlueServiceRole-TitanicLab
+  athena_table: titanic

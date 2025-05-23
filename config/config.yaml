@@ -1,0 +1,9 @@
+aws:
+  region: us-east-1
+  s3_bucket: seu-bucket-titanic
+  raw_key: raw/titanic.csv
+  processed_key: processed/titanic_processed.csv
+  athena_output: athena/results/
+  athena_database: titanic_db
+  athena_table: titanic
+data_url: "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
