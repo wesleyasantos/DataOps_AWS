@@ -29,8 +29,8 @@ README.md
 .gitignore
 ```
 
-## Cronograma Didático
-Veja o cronograma completo em `docs/roteiro_aula.md` para sugestões de aulas, atividades e desafios.
+## Cronograma
+Veja o cronograma completo em `docs/roteiro_aula.md`.
 
 ## Pré-requisitos
 - AWS CLI configurado (`aws configure`)
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 3. Execute o Glue Crawler pelo console AWS para catalogar os dados após a extração/transformação.
 4. Crie a tabela Athena executando o SQL em `scripts/create_athena_table.sql` no console Athena.
 
-## Execução Automática do Pipeline ETL
+## Execução do Pipeline ETL
 Execute todo o pipeline de ETL e análise com apenas um comando:
 
 ```bash
